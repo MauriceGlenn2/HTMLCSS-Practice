@@ -1,15 +1,18 @@
-
-
-p{
-    color: rgb(139, 34, 34);
+*{
+    box-sizing: border-box;
 }
 
-/*hard coding*/
-div{
+.contaniner{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
     width: 100%;
-    max-width: 200px;
-    background-color: rgb(0, 0, 0, 0.2);
-    font-family: roboto;
-    font-weight: 600;
-   
+    height: 600px;
+    border: 2px solid red;
+}
+
+.box{
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
 }
