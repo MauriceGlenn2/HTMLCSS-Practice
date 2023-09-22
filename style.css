@@ -1,0 +1,15 @@
+
+
+p{
+    color: rgb(139, 34, 34);
+}
+
+/*hard coding*/
+div{
+    width: 100%;
+    max-width: 200px;
+    background-color: rgb(0, 0, 0, 0.2);
+    font-family: roboto;
+    font-weight: 600;
+   
+}
